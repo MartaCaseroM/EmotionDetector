@@ -142,6 +142,8 @@ dependencies:
       - idna==3.7
       - keras==2.10.0
       - keras-preprocessing==1.1.2
+      - keras-tuner==1.4.7
+      - kt-legacy==1.0.5
       - libclang==18.1.1
       - markdown==3.6
       - oauthlib==3.2.2
