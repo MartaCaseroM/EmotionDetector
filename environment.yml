@@ -1,4 +1,4 @@
-name: tf
+name: emo
 channels:
   - conda-forge
   - defaults
