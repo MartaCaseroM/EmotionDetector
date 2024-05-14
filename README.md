@@ -28,7 +28,7 @@ It has been carried out a search for the optimum cnn structure using keras-tuner
 
 ## CNN Assessment and explorations
 
-This initial cnn structure has been assessed with the validation and test sata in order to assess its accuracy. Additionally, several other modifications and techniques have been applied to this initial cnn structure in order to study how these changes influence its performance. 
+This initial cnn structure has been assessed with the validation and test data in order to assess its accuracy. Additionally, several other modifications and techniques have been applied to this initial cnn structure in order to study how these changes influence its performance. 
 
 The following techniques and modifications have been performed to the initial cnn structure:
 
