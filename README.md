@@ -32,7 +32,16 @@ This initial cnn structure has been assessed with the validation and test data i
 
 The following techniques and modifications have been performed to the initial cnn structure:
 
-+ Data Augmentation + dropout
++ Data Augmentation + dropout. By doing so, we will be working with the following cnn structure:
+
+    ![alt text](img/data_aug_structure.png)
+
+    
+    ![alt text](img/data_aug_param1.png)
+    ![alt text](img/data_aug_param2.png)
+    
+
+    
 + Transfer Learning: Using a pre-trained network (VGG16) using feature extraction in two possible ways:
     + Feature extraction 1st way: Running the convolutional base over our dataset, recording its output to a Numpy array on disk. For this part we have used the following cnn densely-connected classfier adjusting the first denses layer's input dimension to the dimensions obtained afetr applying feature extraction to the data:
 
