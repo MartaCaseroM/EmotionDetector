@@ -6,7 +6,7 @@ This project works with the data found in: [Kaggle](https://www.kaggle.com/datas
 
 In order to create a set of validation data, it has been used the DataGeneration.ipynb notebook. In this notebook, the original train set of data has been divided by half in order to have a train and validation set of images. The new training data set folder which will be used throughout the whole project is /data/train1.
 
-An initial anlysis of the images has been carried out in order to obtain the amount of images we will be working with and how they are distributed throughout all the classficiation classes (types of emotions). This analysis is shown below:
+An initial analysis of the images has been carried out in order to obtain the amount of images we will be working with and how they are distributed throughout all the classficiation classes (types of emotions). This analysis is shown below:
 
 
 ![alt text](img/train_distribution.png)
