@@ -75,6 +75,6 @@ After assessing all techniques the following results are obtained:
 
 ## Conclusions
 
-The project explored various techniques and modifications to improve the initial CNN structure's performance. The base model provided low performance so Data Augmentation. Even though it provided an accuracy increase, it was still not enough to be considered for a production environment.
+The project explored various techniques and modifications to improve the initial CNN structure's performance. The base model provided low performance so Data Augmentation was used. Even though it provided an accuracy increase, it was still not enough to be considered for a production environment.
 Because of this, transfer learning was considered as leveraging an already trained model could improve greatly our current accuracies. First with just running our dataset through the whole model, where the accuracy came as worse than before, and for the second which reduced it further. 
-For future study, it could be interesting trying to unfreeze some layers from the VGG16 model to see if it increases the accuracy and surpases the one from out base models.  
+For future study, it could be interesting trying to unfreeze some layers from the VGG16 model to see if it increases the accuracy and surpases the one from our base models.  
