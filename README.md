@@ -2,7 +2,7 @@
 
 ## Data Obtention and analysis
 
-This proyect works with the data found in: [Kaggle](https://www.kaggle.com/datasets/msambare/fer2013). This data includes a train and test folder, each with several images of different facial expressions/emotions.
+This project works with the data found in: [Kaggle](https://www.kaggle.com/datasets/msambare/fer2013). This data includes a train and test folder, each with several images of different facial expressions/emotions.
 
 In order to create a set of validation data, it has been used the DataGeneration.ipynb notebook. In this notebook, the original train set of data has been divided by half in order to have a train and validation set of images. The new training data set folder which will be used throughout the whole project is /data/train1.
 
@@ -40,6 +40,11 @@ The following techniques and modifications have been performed to the initial cn
 
 ## Results
 
+After assessing all techniques the following results are obtained:
+
+|                | Initial CNN structure | Data Augmentation | VGG16 (1st way) | VGG16 (2nd way) |
+|----------------|-----------------------|-------------------|-----------------|-----------------|
+| Test Accuracy  | 52.7%                 | 56.6%             | 43.9%           | 39.3%           |
 
 
 
