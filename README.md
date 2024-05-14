@@ -40,6 +40,7 @@ The following techniques and modifications have been performed to the initial cn
     ![alt text](img/data_aug_param1.png)
     ![alt text](img/data_aug_param2.png)
     
+    
 
     
 + Transfer Learning: Using a pre-trained network (VGG16) using feature extraction in two possible ways:
