@@ -49,4 +49,4 @@ After assessing all techniques the following results are obtained:
 
 ## Conclusions
 
-The project explored various techniques and modifications to improve the initial CNN structure's performance. Techniques such as data augmentation with dropout and transfer learning using VGG16 were investigated. From the results we can see that data augmentation led to an improvement in accuracy compared to the initial CNN structure. However, the application of VGG16, resulted in decreased accuracy. Although normally using a pre-trained network is a good way to improve a model, for our project we have seen that this is not the case, in fact data augmentation outperformed transfer learning with VGG16.
+The project explored various techniques and modifications to improve the initial CNN structure's performance. Techniques such as data augmentation with dropout and transfer learning using VGG16 were investigated. From the results we can see that data augmentation led to an improvement in accuracy compared to the initial CNN structure. However, the application of VGG16, resulted in decreased accuracy. 
