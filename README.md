@@ -34,8 +34,24 @@ The following techniques and modifications have been performed to the initial cn
 
 + Data Augmentation + dropout
 + Transfer Learning: Using a pre-trained network (VGG16) using feature extraction in two possible ways:
-    + Feature extraction 1st way: Running the convolutional base over our dataset, recording its output to a Numpy array on disk
-    + Feature extraction 2nd way: Extending the model we have (`conv_base`) by adding `Dense` layers on top, and running the whole thing end-to-end on the input data.
+    + Feature extraction 1st way: Running the convolutional base over our dataset, recording its output to a Numpy array on disk. For this part we have used the following cnn densely-connected classfier adjusting the first denses layer's input dimension to the dimensions obtained afetr applying feature extraction to the data:
+
+     
+    ![alt text](img/vgg16_1way_structure.png)
+
+    
+    ![alt text](img/vgg16_1way_parameters.png)
+    
+
+    + Feature extraction 2nd way: Extending the model we have (`conv_base`) by adding `Dense` layers on top, and running the whole thing end-to-end on the input data. By doing so, the cnn structure used is as follows:
+
+     
+    ![alt text](img/vgg16_2way_structure.png)
+
+    
+    ![alt text](img/vgg16_2way_parameters.png)
+    
+
 
 
 ## Results
